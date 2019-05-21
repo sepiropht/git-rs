@@ -9,7 +9,7 @@ pub fn init() -> Result<(), TgitError> {
   let dir = Path::new(".tgit");
 
   fs::create_dir(dir)?;
-  fs::create_dir(dir.join("object"))?;
+  fs::create_dir(dir.join("objects"))?;
   fs::create_dir(dir.join("refs"))?;
   fs::create_dir(dir.join("refs").join("heads"))?;
   

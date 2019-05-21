@@ -13,7 +13,7 @@ pub enum Tree {
     children: Vec<Tree>,
   }
 }
-
+#[derive(Debug)]
 pub struct Blob {
   pub hash: String,
   pub data: Vec<u8>,
