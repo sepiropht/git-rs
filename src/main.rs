@@ -3,6 +3,7 @@ mod init;
 mod types;
 mod index;
 mod file;
+mod commit;
 mod add;
 
 use clap::{App, Arg, SubCommand};
